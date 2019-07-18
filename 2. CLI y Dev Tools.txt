@@ -5,3 +5,11 @@ Webpack también nos permite agregar archivos de CSS, archivos .svg, imágenes, 
 
 Babel
 Babel es un transpilador de código. Una herramienta que transforma y compila nuestro código. Esto quiere decir que nos permite escribir en un código compatible con cualquier navegador.
+
+Eslint
+Eslint es un linter de código. Es una herramienta que nos permite hacer dos tipos de chequeo. Por un lado nos permite establecer un estilo de código homogéneo para todo el equipo de desarrollo. Permite definir ciertas reglas para que todos los desarrolladores de ese proyecto las cumplan y las apliquen en el código.
+Por otro lado nos facilita la configuración usando reglas predefinidas. Estas reglas se instalan como librerías de NPM que ya fueron pensadas o desarrolladas por otras personas para que podamos utilizarlas.
+https://github.com/standard/eslint-config-standard
+
+npm i -D eslint-plugin-vue
+npm install -D babel-eslint
