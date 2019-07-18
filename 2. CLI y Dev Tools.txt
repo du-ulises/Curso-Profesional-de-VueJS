@@ -1,0 +1,4 @@
+Webpack
+Webpack: Tiene el propósito de trabajar con diferentes archivos en nuestro desarrollo local, pero generando un único archivo, aunque podemos configurarlo para que sea uno, dos o tres archivos, eso depende de cómo lo necesitemos.
+
+Webpack también nos permite agregar archivos de CSS, archivos .svg, imágenes, urls y contenidos. Esto quiere decir que se puede compilar archivos de JavaScript y archivos estáticos.
