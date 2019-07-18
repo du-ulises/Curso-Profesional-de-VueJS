@@ -9,3 +9,6 @@ Características del Framework:
 Está orientado a la vista.
 Es reactivo. Se puede enlazar el código con la vista. Se puede actualizar desde cualquiera de los dos y se sincroniza todo en un círculo virtuoso.
 Está basado en Core, es una librería pequeña, resuelve algo específico y concreto. Sin embargo es escalable y extendible.
+
+CLI - Hello Word
+vue init webpack-simple platzi-music
