@@ -1,0 +1,11 @@
+Introducción a VueJS
+
+Acerca de VueJS:
+Tiene complejidad inherente y complejidad instrumental.
+La complejidad inherente es la que se hereda del proyecto y no se puede modificar.
+La complejidad instrumental es la que nosotros podemos controlar. Es el precio que pagamos para resolver la complejidad inherente (herramientas).
+-** VueJS** puede ser definido como el Framework Web Progresivo porque nos permite progresivamente ir escalando nuestra aplicación a medida que lo vamos necesitando.
+Características del Framework:
+Está orientado a la vista.
+Es reactivo. Se puede enlazar el código con la vista. Se puede actualizar desde cualquiera de los dos y se sincroniza todo en un círculo virtuoso.
+Está basado en Core, es una librería pequeña, resuelve algo específico y concreto. Sin embargo es escalable y extendible.
