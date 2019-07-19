@@ -13,3 +13,6 @@ https://github.com/standard/eslint-config-standard
 
 npm i -D eslint-plugin-vue
 npm install -D babel-eslint
+
+PUG
+PUG nos permite crear HTML con otro tipo de sintaxis, escribiendo menos código, y a través de webpack compilarlo para que funcione en el navegador.
