@@ -1,0 +1,19 @@
+Expresiones
+Las expresiones son esos parámetros que ponemos entre llaves dentro de nuestro HTML y nos permiten representar en pantalla valores de nuestro Vue Model.
+
+Directivas
+Las Directivas son pequeños marcadores o atributos que podemos agregar a nuestros elementos HTML que nos sirven para aplicar transformaciones en esos mismos elementos.
+
+Data Binding
+Data Binding implica que podamos enlazar datos desde nuestra vista a nuestro código y desde nuestro código a nuestra vista. Esto quiere decir que cada vez que algo se cambie en el código, va a reflejarse automáticamente en la vista, gracias al concepto de reactividad, pero también cada vez que el usuario busca algún dato en un campo de texto o interactue con otros sitios a través de eventos también vamos a poder ver reflejados esos cambios en el código.
+
+Computed properties
+Computed Properties son son propiedades que se calculan a partir de los valores de otras propiedades, esto quiere decir que podemos crear propiedades dinámicas que van a ser regeneradas cada vez que otras propiedades cambien su valor.
+
+Watchers
+Los Watchers nos permiten ejecutar código a partir de que una propiedad de nuestro View Model cambia.
+A diferencia de las Computed Properties no devuelven un valor, no son propiedades y tampoco pueden ser utilizadas en expresiones.
+
+Eventos
+Los Eventos tanto como los inputs son la manera que el usuario tiene para interactuar con nuestra aplicación.
+
