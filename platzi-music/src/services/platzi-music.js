@@ -1,4 +1,4 @@
-import tre from 'trae'
+import trae from 'trae'
 import configService from './config'
 
 const platziMusicService = trae.create({
