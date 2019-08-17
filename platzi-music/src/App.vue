@@ -1,6 +1,7 @@
 <template lang="pug">
   #app
     pm-header
+    
     section.section
       nav.nav.has-shadow
         .container
@@ -19,6 +20,7 @@
         .columns
           .column(v-for="t in tracks" :key="t.id")
            | {{ t.name }} - {{ t.artists[0].name }}
+
     pm-footer
 </template>
 

@@ -1,0 +1,27 @@
+Reactividad
+Al mutar/cambiar una propiedad de un objeto dentro de data, este si cambia pero el watcher nunca se entera de ese cambio por lo tanto no se ve reflejado en la página (no hay reactividad). Hay dos soluciones.
+
+La de vue
+
+// $set es una función del framework
+
+// this.$set(<objeto a agregar una propiedad>, <nombre de la propiedad>, <valor de esa propiedad>) 
+
+this.$set(this.person, 'lastName', 'Anaya')
+La de ES6
+
+// Esto va a crear un objeto nuevo y se va a asignar al objeto deseado. agregando lo que hacia falta
+
+// this.person = Object.assign({}, <Objeto que quiero mezclar> , { <Que se va a incorporar> })
+
+this.person = Object.assign({}, this.person, { a: 1, b: 2 })
+
+Ciclo de vida
+beforeCreate: se ejecuta justo después de la inicialización de la instancia.
+created: se ejecuta cuando la instancia y los eventos, las computed properties, el data y los métodos están creados. Normalmente se utiliza para inicializar propiedades del objeto data con consultas HTTP Get.
+beforeMount: se ejecuta justo antes de que se añada al DOM.
+mounted: se ejecuta después de añadirlo al DOM. Se puede utilizar para inicializar librerías que dependan del DOM.
+beforeUpdate: se ejecuta cuando el data cambia, pero el DOM aun no ha plasmado los cambios.
+updated: se ejecuta después de que el data cambie y el DOM muestre estos cambios.
+beforeDestroy: se ejecuta justo antes de eliminar la instancia.
+destroyed: se ejecuta cuando la instancia, los eventos, directivas e hijos del componente se han eliminado.
